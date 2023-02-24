@@ -1,6 +1,6 @@
 # Programming Black Assignment 2 Learning Log
 ## Entry 1 - 24/02/23
-For the past 2 weeks I have been researching OpenGL and WebGL to try and learn processing using the GPU. I started out by creating fragment shaders using OpenGL in VSCode using a shader extension but I then moved onto WebGL to create a simple website hosting shaders.
+For the past 2 weeks I have been researching OpenGL and WebGL, I want to learn how to properly process graphics using the GPU to create fast renderings. I started out by creating fragment shaders using OpenGL in VSCode using a shader extension but I then moved onto WebGL to create a simple website hosting shaders.
 
 I started my research by using a website 'The Book Of Shaders' (https://thebookofshaders.com/), this website holds several articles that outline how fragment shaders work. Using the website, I was able to graph and animate several functions such as sin, cos and a triangle wave. I was then able to implement colours by creating coloured lines for the graphs allowing me to map several functions onto one graph as well as add a coloured gradient background.
 
@@ -22,7 +22,7 @@ Animated Julia set:
 
 <img src="./images/julia.png" alt="animated julia set" width="600">
 
-Afterwards, I tried mapping the Tinkerbell map (https://en.wikipedia.org/wiki/Tinkerbell_map) only using the knowledge I had gained from the research I had done previously and then I decided to map another chaotic map, the Bogdanov map, through similar means. I was able to implement both of these although they both cause the computer to slow after a certain number of points are plotted, so I will have to improve my shader further.
+Afterwards, I tried mapping the Tinkerbell map (https://en.wikipedia.org/wiki/Tinkerbell_map) only using the knowledge I had gained from the research I had done previously and then I decided to map another chaotic map, the Bogdanov map (https://en.wikipedia.org/wiki/Bogdanov_map), through similar means. I was able to implement both of these although they both cause the computer to slow after a certain number of points are plotted, so I will have to improve my shader further.
 
 Animated tinkerbell map:
 
@@ -40,3 +40,5 @@ Website holding the WebGL geometry and shaders showing transformation and colour
 <img src="./images/WebGLpage2.png" alt="animated bogdanov map" width="800">
 
 I then browsed stack overflow, reddit and godot forums for questions I could answer and I found a couple questions about the Godot game engine that I was able to answer (https://stackoverflow.com/questions/75504631/godot-set-of-attack-movements/75510424#75510424) (https://www.reddit.com/r/godot/comments/119yull/moving_platform_apply_velocity_not_working) (https://www.reddit.com/r/godot/comments/119gwdi/3d_movement_question/) (https://godotforums.org/d/32861-weird-reaction-in-body-entered-signal/2) My username on stack overflow and godot forums is Cavlon and on reddit it is CavlonDeCadlon.
+
+Next I plan on learning how to properly transform 3D shapes and apply more complex fragment shaders to them as well as adding interactivity.
