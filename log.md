@@ -61,3 +61,13 @@ Mockup:
 My design with React and TypeScript:
 
 <img src="./images/react_page.png" alt="react page" width="800">
+
+## Entry 3 - 13/03/23
+This week I decided to dedicate more time to learning React so I could iron out the bugs in the banking website. I followed a few more tutorials (https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning) (https://www.tutorialspoint.com/reactjs/index.htm) and searched stack overflow to see how others solved certain viewport problems. I've learned that I originally misunderstood how css sizing metrics worked, I used absolute pixel measurements when I should have been using relative % measurements for padding and margins as well as flex boxes. After implementing everything I had learnt this past week, I fixed the sidebar and information boxes to have everything positioned and sized correctly at different viewport sizes. I intended on learning how to add interactivity but most of my time was spent on fixing bugs and making code more readable. Next I plan on learning SQL to possibly help with the database integration into the website.
+
+New frontend with different viewport sizes:
+
+<img src="./images/page fixed.png" alt="new page" width="800">
+<img src="./images/page thin.png" alt="thin window" width="400">
+<img src="./images/page wide.png" alt="wide window" width="800">
+<img src="./images/page square.png" alt="square window" width="800">
