@@ -73,7 +73,7 @@ New frontend with different viewport sizes:
 <img src="./images/page square.png" alt="square window" width="800">
 
 ## Entry 4 - 26/03/23
-Recently I decided to start learning how to implement a database using typescript, I managed to find an npm package 'prisma' that enabled me to create and manage a database locally as well as provide a gui to display the database. After installing it, I followed the tutorial they provide (https://www.prisma.io/docs/getting-started/quickstart) to get accustomed to the API and after completing the short tutorial, I experimented further by adding new additional relations to the database to ensure I had a good idea of how to operate it. I created a simple user and post database where users, posts, topics and are stored separately and are connected via relations. I am now able to create, update and delete relations as well as query them.
+Recently I decided to start learning how to implement a database using typescript, I managed to find an npm package 'prisma' that enabled me to create and manage a database locally as well as provide a gui to display the database. After installing it, I followed the tutorial they provide (https://www.prisma.io/docs/getting-started/quickstart) to get accustomed to the API and after completing the short tutorial, I experimented further by adding new additional relations to the database to ensure I had a good idea of how to operate it. I created a simple social media database where users, posts, topics and comments are stored separately and are connected via relations. I am now able to create, update and delete relations as well as query them.
 
 Schema using prisma:
 
@@ -92,6 +92,6 @@ Prisma GUI:
 
 <img src="./images/prismaGUI.png" alt="database" width="900">
 
-Getting this set up took the majority of my time and a large amount of time was also spent on researching database design furthere to make sure I create the database correctly. The entity-relationship model for the banking website was finalised by a group memeber and so I worked to set up the foundation of prisma so that next time, the database's contents can be implemented using the model as a guide.
+Getting this set up took the majority of my time as well as researching database design further to make sure I create the database correctly. The entity-relationship model for the banking website was finalised by a group member and so I worked to set up the foundation of prisma so that next time, the database's contents can be implemented using the model as a guide.
 
 <img src="./images/erModel.png" alt="banking site database model" width="500">
